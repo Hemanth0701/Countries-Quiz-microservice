@@ -12,6 +12,7 @@ import java.util.Map;
 @Builder
 @Getter
 @Setter
+@ToString
 public class Country {
     private Name name;
     private List<String> tld;
